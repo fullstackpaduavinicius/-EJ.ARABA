@@ -12,7 +12,7 @@ const Header = () => {
               className="object-cover w-full h-full"
             />
           </div>
-          <span className="ml-3 text-xl font-semibold text-white">EJ.ARABA limpieza profesional</span>
+          <span className="ml-3 text-xl font-semibold text-white">EJ.ARABA Especialistas en PULIDOS y ABRILLANTADOS DE SUELOS</span>
         </div>
       </div>
     </header>

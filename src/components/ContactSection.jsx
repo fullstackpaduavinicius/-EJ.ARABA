@@ -177,7 +177,7 @@ const ContactSection = () => {
 
               <div className="mt-8 pt-6 border-t border-gray-300">
                 <h4 className="font-medium text-gray-800 mb-3">Información legal</h4>
-                <p className="text-gray-600">NIF: X12345678</p>
+                <p className="text-gray-600">NIF: Y3918563K</p>
               </div>
             </div>
           </div>
