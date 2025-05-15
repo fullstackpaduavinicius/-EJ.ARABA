@@ -1,47 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Favicon principal (usando su imagen JPEG) -->
+    <link rel="icon" href="%PUBLIC_URL%/portifolio_marca.jpeg" type="image/jpeg">
+    
+    <!-- Favicon alternativo para navegadores que no soportan JPEG como icono -->
+    <link rel="icon" href="%PUBLIC_URL%/portifolio_marca.ico" type="image/x-icon" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    
+    <!-- Meta tags optimizadas -->
+    <meta name="description" content="EJARA Pulimentos - Especialistas en tratamiento profesional de suelos en Vitoria-Gasteiz. Limpieza, pulido y cristalización." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.ejarapulimentos.com/" />
+    <meta property="og:title" content="EJARA Pulimentos | Tratamiento Profesional de Suelos" />
+    <meta property="og:description" content="Especialistas en limpieza, pulido y tratamiento de suelos en Vitoria-Gasteiz." />
+    <meta property="og:image" content="%PUBLIC_URL%/portifolio_marca.jpeg" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.ejarapulimentos.com/" />
+    <meta property="twitter:title" content="EJARA Pulimentos | Tratamiento Profesional de Suelos" />
+    <meta property="twitter:description" content="Especialistas en limpieza, pulido y tratamiento de suelos en Vitoria-Gasteiz." />
+    <meta property="twitter:image" content="%PUBLIC_URL%/portifolio_marca.jpeg" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/portifolio_marca.jpeg" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>EJARA Pulimentos - Especialistas en Tratamiento de Suelos</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>Necesitas habilitar JavaScript para ejecutar esta aplicación.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-      <meta name="description" content="Especialistas em limpeza e tratamento de pisos. Serviços profissionais para residências e empresas." />
-<meta name="keywords" content="limpeza de pisos, polimento, tratamento de pisos, limpeza pós-obra" />
-<meta property="og:title" content="Limpeza Profissional - Especialistas em Pisos" />
-<meta property="og:description" content="Serviços profissionais de limpeza e tratamento de pisos." />
+    
+    <!-- Precarga la imagen para mejor rendimiento -->
+    <link rel="preload" href="%PUBLIC_URL%/portifolio_marca.jpeg" as="image">
   </body>
 </html>

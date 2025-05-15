@@ -1,16 +1,11 @@
 import React from 'react';
-import { FaBroom, FaWater, FaShieldAlt, FaClock } from 'react-icons/fa';
+import { FaBroom, FaShieldAlt, FaClock } from 'react-icons/fa';
 
 const services = [
   {
     icon: <FaBroom className="text-black text-3xl" />,
     title: "Limpieza Profunda",
     description: "Eliminación completa de suciedad incrustada y residuos"
-  },
-  {
-    icon: <FaWater className="text-black text-3xl" />,
-    title: "Hidrolimpieza",
-    description: "Técnica con alta presión para suelos exteriores"
   },
   {
     icon: <FaShieldAlt className="text-black text-3xl" />,
@@ -32,7 +27,7 @@ const ServiceCards = () => {
           Nuestros <span className="text-[#2E8BC0]">Servicios</span>
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div 
               key={index}

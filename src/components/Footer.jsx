@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-full bg-vibrant-green flex items-center justify-center text-white font-bold text-xl mr-3">
                 EA
               </div>
-              <span className="text-xl font-semibold">Ejara Pulimientos</span>
+              <span className="text-xl font-semibold">Ejaraba Pulimientos</span>
             </div>
             <p className="text-gray-300 mb-4">
               Transformando suelos con calidad profesional desde 2010.
@@ -64,12 +64,28 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">Horario</h3>
             <ul className="space-y-2 text-gray-300">
               <li className="flex justify-between">
-                <span>Lun-Vie:</span>
-                <span>8h a 18h</span>
+                <span>Lunes:</span>
+                <span>08:00 - 18:00</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Martes:</span>
+                <span>08:00 - 18:00</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Miércoles:</span>
+                <span>08:00 - 18:00</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Jueves:</span>
+                <span>08:00 - 18:00</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Viernes:</span>
+                <span>08:00 - 18:00</span>
               </li>
               <li className="flex justify-between">
                 <span>Sábado:</span>
-                <span>8h a 12h</span>
+                <span>08:00 - 12:00</span>
               </li>
               <li className="flex justify-between">
                 <span>Domingo:</span>
@@ -81,7 +97,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Ejara Pulimientos. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Ejaraba Pulimientos. Todos los derechos reservados.
           </p>
           <p className="text-gray-300 text-sm">
             NIF: X12345678
