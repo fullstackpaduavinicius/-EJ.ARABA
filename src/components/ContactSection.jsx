@@ -153,7 +153,7 @@ const ContactSection = () => {
                   <FaPhone className="text-[#00f172a] mt-1" />
                   <div>
                     <h4 className="font-medium text-gray-800">Teléfono</h4>
-                    <p className="text-gray-600">+34 123 456 789<br/>+34 987 654 321</p>
+                    <p className="text-gray-600">+34 603 37 32 93<br/>+34 663 54 08 83</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
