@@ -1,45 +1,73 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-  <head>
-    <meta name="google-site-verification" content="MU9QJZwZo4hfk34iV4wawvLEJ6Ss-9nSTe2OR410XDQ" />
-
-    <meta charset="utf-8" />
-    <!-- Favicon principal (usando su imagen JPEG) -->
-    <link rel="icon" href="%PUBLIC_URL%/portifolio_marca.jpeg" type="image/jpeg">
-    
-    <!-- Favicon alternativo para navegadores que no soportan JPEG como icono -->
-    <link rel="icon" href="%PUBLIC_URL%/portifolio_marca.ico" type="image/x-icon" />
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    
-    <!-- Meta tags optimizadas -->
-    <meta name="description" content="EJARA Pulimentos - Especialistas en tratamiento profesional de suelos en Vitoria-Gasteiz. Limpieza, pulido y cristalización." />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.ejarapulimentos.com/" />
-    <meta property="og:title" content="EJARA Pulimentos | Tratamiento Profesional de Suelos" />
-    <meta property="og:description" content="Especialistas en limpieza, pulido y tratamiento de suelos en Vitoria-Gasteiz." />
-    <meta property="og:image" content="%PUBLIC_URL%/portifolio_marca.jpeg" />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://www.ejarapulimentos.com/" />
-    <meta property="twitter:title" content="EJARA Pulimentos | Tratamiento Profesional de Suelos" />
-    <meta property="twitter:description" content="Especialistas en limpieza, pulido y tratamiento de suelos en Vitoria-Gasteiz." />
-    <meta property="twitter:image" content="%PUBLIC_URL%/portifolio_marca.jpeg" />
-
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/portifolio_marca.jpeg" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    
-    <title>EJARA Pulimentos - Especialistas en Tratamiento de Suelos</title>
-  </head>
-  <body>
-    <noscript>Necesitas habilitar JavaScript para ejecutar esta aplicación.</noscript>
-    <div id="root"></div>
-    
-    <!-- Precarga la imagen para mejor rendimiento -->
-    <link rel="preload" href="%PUBLIC_URL%/portifolio_marca.jpeg" as="image">
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  
+  <title>EJARA Pulimentos - Tratamiento Profesional de Suelos en Vitoria-Gasteiz</title>
+  
+  <meta name="description" content="EJARA Pulimentos - Expertos en limpieza, pulido y cristalización de suelos en Vitoria-Gasteiz. Calidad y profesionalidad en cada trabajo." />
+  <meta name="keywords" content="pulimentos, tratamiento de suelos, limpieza de suelos, cristalización, Vitoria-Gasteiz, profesionales de suelos" />
+  <meta name="robots" content="index, follow" />
+  
+  <link rel="canonical" href="https://www.ejarapulimentos.com/" />
+  
+  <!-- Favicons -->
+  <link rel="icon" href="%PUBLIC_URL%/portifolio_marca.ico" type="image/x-icon" />
+  <link rel="icon" href="%PUBLIC_URL%/portifolio_marca.jpeg" type="image/jpeg" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/portifolio_marca.jpeg" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  
+  <!-- Preload logo para desempenho -->
+  <link rel="preload" href="%PUBLIC_URL%/portifolio_marca.jpeg" as="image" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.ejarapulimentos.com/" />
+  <meta property="og:title" content="EJARA Pulimentos | Tratamiento Profesional de Suelos" />
+  <meta property="og:description" content="Expertos en limpieza, pulido y tratamiento de suelos en Vitoria-Gasteiz. Servicio profesional y resultados garantizados." />
+  <meta property="og:image" content="https://www.ejarapulimentos.com/portifolio_marca.jpeg" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://www.ejarapulimentos.com/" />
+  <meta name="twitter:title" content="EJARA Pulimentos | Tratamiento Profesional de Suelos" />
+  <meta name="twitter:description" content="Expertos en limpieza, pulido y tratamiento de suelos en Vitoria-Gasteiz. Servicio profesional y resultados garantizados." />
+  <meta name="twitter:image" content="https://www.ejarapulimentos.com/portifolio_marca.jpeg" />
+  
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="MU9QJZwZo4hfk34iV4wawvLEJ6Ss-9nSTe2OR410XDQ" />
+  
+  <!-- JSON-LD Schema.org para LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "EJARA Pulimentos",
+    "image": "https://www.ejarapulimentos.com/portifolio_marca.jpeg",
+    "telephone": "+34 123 456 789",
+    "email": "info@ejarapulimentos.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Falsa 123",
+      "addressLocality": "Vitoria-Gasteiz",
+      "addressRegion": "Álava",
+      "postalCode": "01001",
+      "addressCountry": "ES"
+    },
+    "url": "https://www.ejarapulimentos.com",
+    "sameAs": [
+      "https://www.facebook.com/ejarapulimentos",
+      "https://twitter.com/ejarapulimentos",
+      "https://www.instagram.com/ejarapulimentos"
+    ],
+    "description": "Especialistas en limpieza, pulido y cristalización de suelos en Vitoria-Gasteiz. Servicio profesional y garantía de calidad."
+  }
+  </script>
+</head>
+<body>
+  <noscript>Necesitas habilitar JavaScript para ejecutar esta aplicación.</noscript>
+  <div id="root"></div>
+</body>
 </html>
