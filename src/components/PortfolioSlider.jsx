@@ -133,7 +133,28 @@ const mediaItems = [
     id: 25, 
     src: '/midias/portifolio24.jpg', 
     
+  },
+ { 
+    id: 26, 
+    src: '/midias/portifolio25.jpg', 
+    
+  },
+  { 
+    id: 27, 
+    src: '/midias/portifolio26.jpeg', 
+    
+  },
+  { 
+    id: 28, 
+    src: '/midias/portifolio27.jpeg', 
+    
+  },
+  { 
+    id: 28, 
+    src: '/midias/portifolio28.jpeg', 
+    
   }
+
 ];
 const MediaGallery = () => {
   const [selectedMedia, setSelectedMedia] = useState(null);
