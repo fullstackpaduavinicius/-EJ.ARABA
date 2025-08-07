@@ -8,31 +8,31 @@ const BeforeAfterGame = () => {
       id: 1,
       before: '/midias/antes1.jpeg',
       after: '/midias//depois1.jpeg',
-      description: 'Limpeza profunda em piso de mármore - Shopping Center'
+      description: 'Tratamiento de barro cocido'
     },
     {
       id: 2,
       before: '/midias/antes2.jpeg',
       after: '/midias//depois2.jpeg',
-      description: 'Restauração de piso de granito - Condomínio Residencial'
+      description: 'Pulido y abrillantado de mármol blanc'
     },
     {
       id: 3,
       before: '/midias/antes3.jpeg',
       after: '/midias//depois3.jpeg',
-      description: 'Limpeza pós-obra em piso cerâmico - Empresa Corporativa'
+      description: 'Tratamiento con resina'
     },
     {
       id: 4,
       before: '/midias/antes4.jpeg',
       after: '/midias//depois4.jpeg',
-      description: 'Limpeza pós-obra em piso cerâmico - Empresa Corporativa'
+      description: 'Pulido y abrillantado de suelo hidráulico '
     },
     {
       id: 5,
       before: '/midias/antes5.jpeg',
       after: '/midias//depois5.jpeg',
-      description: 'Limpeza pós-obra em piso cerâmico - Empresa Corporativa'
+      description: 'Limpieza, pulido y abrillantado de mármol crema marfil'
     },
     // Adicione mais itens conforme necessário
   ];
@@ -91,7 +91,7 @@ const BeforeAfterGame = () => {
   return (
     <section className="py-12 bg-light-bg">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-2">Veja a Transformação</h2>
+        <h2 className="text-3xl font-bold text-center mb-2">Mira los resultados</h2>
         <p className="text-center text-light-gray mb-8">Deslize para ver o antes e depois dos nossos serviços</p>
         
         <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
@@ -170,14 +170,14 @@ const BeforeAfterGame = () => {
               onClick={randomItem}
               className="px-4 py-2 bg-contrast-blue text-white rounded-lg flex items-center gap-2 hover:bg-opacity-90 transition-colors"
             >
-              <FaRandom /> Surpreenda-me
+              <FaRandom /> Sorprendeme
             </button>
           </div>
         </div>
         
         <div className="mt-8 text-center">
-          <p className="text-light-gray">Deslize horizontalmente para comparar as imagens</p>
-          <p className="text-sm text-light-gray mt-2">{currentIndex + 1} de {portfolioItems.length} trabalhos</p>
+          <p className="text-light-gray">Deslice para ver el antes y el después de nuestros servicios</p>
+          <p className="text-sm text-light-gray mt-2">{currentIndex + 1} de {portfolioItems.length} Trabajos</p>
         </div>
       </div>
     </section>
