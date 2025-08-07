@@ -2,12 +2,12 @@ import React from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import PortfolioSlider from './components/PortfolioSlider';
+import BeforeAfterGame from './components/BeforeAfterGame'; // Importe o novo componente
 import ServiceCards from './components/ServiceCards';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
-//import './index.css';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <main className="flex-grow">
         <HeroSection />
         <PortfolioSlider />
+        <BeforeAfterGame /> {/* Adicionado aqui, logo após o PortfolioSlider */}
         <ServiceCards />
         <AboutSection />
         <ContactSection />
